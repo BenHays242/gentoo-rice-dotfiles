@@ -1,6 +1,15 @@
 # gentoo-rice-dotfiles
 Dotfiles for my Gentoo themed rice (https://www.reddit.com/r/unixporn/comments/vw1gsm/dwm_the_i_use_gentoo_btw_themedesktop/)
 
+# Required programs
+* Zsh (Not needed but that's what's setup in Alacritty)
+* Alacritty
+* GCC
+* Make
+* Firefox (Also not needed but that's what's setup in keybinds)
+
+Also take note that the name of the package for whatever distro you install this on may be different...
+
 # How to install
 DWM, Dmenu, and Slstatus are all configured at compile time so there's no configuration folder or .dotfiles but if you want my configuration, you have to compile it from the source code included in this GH repo. Here's a command to automate the building/installing of all three applications (Assuming your in the root directory of the repo, have GCC & Make installed, and have sudo permissions)
 ```sh
